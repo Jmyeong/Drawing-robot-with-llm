@@ -1,7 +1,6 @@
 # Drawing Robot With Large Language Model
 
 This repository is the implementation of the class: Robot learning 101 (JBNU 2025 fall, M.S course)
-The base code is written by prof. Nuri Kim
 
 Used LLM: Qwen2.5-instruct-7B
 Simulation tool: Mujoco
