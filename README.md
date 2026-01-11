@@ -25,10 +25,10 @@ If you want to show how the robot simulator generates the dataset, convert 'visu
 </table>
 <table>
   <tr>
-    <td width="25%"><img src="assets/images/airplane.gif"></td>
-    <td width="25%"><img src="assets/images/alarm.gif"></td>
-    <td width="25%"><img src="assets/images/backpack.gif"></td>
-    <td width="25%"><img src="assets/images/bicycle.gif"></td>
+    <td width="25%"><img src="assets/images/airplane.png"></td>
+    <td width="25%"><img src="assets/images/alarm.png"></td>
+    <td width="25%"><img src="assets/images/backpack.png"></td>
+    <td width="25%"><img src="assets/images/bicycle.png"></td>
   </tr>
 </table>
 ## Training
