@@ -35,6 +35,7 @@ If you want to show how the robot simulator generates the dataset, convert 'visu
     <td width="25%"><img src="assets/images/bicycle.png"></td>
   </tr>
 </table>
+
 ## Training
 
 ![Network pipeline](assets/images/pipeline.jpg)
