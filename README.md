@@ -7,13 +7,13 @@ Robot platform: ROBOTIS OMX
 
 ## Setup
 
-Step1: Prepare dataset (I used QuickDraw dataset)
+### Step1: Prepare dataset (I used QuickDraw dataset)
 
-Step2: `python dataset_generate.py`
+### Step2: `python dataset_generate.py`
 
 If you want to check the dataset, run `python check_dataset.py`
 
-Step3: `python ./Drawing-with-OMX/notebook/drawing/gen_data.py`
+### Step3: Prepare your joint dataset: `python ./Drawing-with-OMX/notebook/drawing/gen_data.py`
 If you want to show how the robot simulator generates the dataset, convert 'visualize' to True (in gen_data.py)
 <table>
   <tr>
