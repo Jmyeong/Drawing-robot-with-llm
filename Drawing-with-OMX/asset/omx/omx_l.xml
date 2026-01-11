@@ -1,0 +1,47 @@
+<mujoco model="omx_l">
+  <compiler angle="radian"/>
+
+  <asset>
+    <mesh name="leader_01_base_roll" content_type="model/stl" file="urdf/omx_l/leader_01_base_roll.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="leader_02_base_tilt_revised" content_type="model/stl" file="urdf/omx_l/leader_02_base_tilt_revised.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="leader_03_middle_vertical" content_type="model/stl" file="urdf/omx_l/leader_03_middle_vertical.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="leader_04_middle_horizontal" content_type="model/stl" file="urdf/omx_l/leader_04_middle_horizontal.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="leader_05_tip_roll" content_type="model/stl" file="urdf/omx_l/leader_05_tip_roll.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="leader_06_tip_pan_revised" content_type="model/stl" file="urdf/omx_l/leader_06_tip_pan_revised.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="leader_07_tip_grip" content_type="model/stl" file="urdf/omx_l/leader_07_tip_grip.stl" scale="0.001 0.001 0.001"/>
+  </asset>
+
+  <worldbody>
+    <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="leader_01_base_roll"/>
+    <body name="link1" pos="-0.0095 0 0.0545">
+      <inertial pos="2.83504e-05 0.000275113 0.0312809" quat="0.999997 -0.00216307 -0.000542784 -0.000164833" mass="0.025271" diaginertia="4.40774e-06 4.21813e-06 1.868e-06"/>
+      <joint name="joint1" pos="0 0 0" axis="0 0 1" range="-6.28319 6.28319" actuatorfrcrange="-1000 1000" damping="0.05"/>
+      <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="leader_02_base_tilt_revised"/>
+      <body name="link2" pos="0 0 0.042">
+        <inertial pos="0.0142492 0.000172411 0.0687606" quat="0.693296 0.108195 0.107569 0.704318" mass="0.0477062" diaginertia="6.58166e-05 6.2121e-05 1.19626e-05"/>
+        <joint name="joint2" pos="0 0 0" axis="0 1 0" range="-6.28319 6.28319" actuatorfrcrange="-1000 1000" damping="0.1"/>
+        <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="leader_03_middle_vertical"/>
+        <body name="link3" pos="0.0375 0 0.09">
+          <inertial pos="0.0828274 0.000172415 0.000182392" quat="-0.000316969 0.706928 0.000801835 0.707285" mass="0.0477062" diaginertia="9.72316e-05 9.4567e-05 5.6039e-06"/>
+          <joint name="joint3" pos="0 0 0" axis="0 1 0" range="-6.28319 6.28319" actuatorfrcrange="-1000 1000" damping="0.1"/>
+          <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="leader_04_middle_horizontal"/>
+          <body name="link4" pos="0.1275 0 0">
+            <inertial pos="0.0222628 6.54337e-05 0.00588644" quat="0.610774 0.372714 0.382467 0.584601" mass="0.0304318" diaginertia="7.46512e-06 7.23252e-06 4.78358e-06"/>
+            <joint name="joint4" pos="0 0 0" axis="0 1 0" range="-6.28319 6.28319" actuatorfrcrange="-1000 1000" damping="0.1"/>
+            <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="leader_05_tip_roll"/>
+            <body name="link5" pos="0.0287 0 0">
+              <inertial pos="0.0361242 0.000280933 2.35744e-05" quat="0.334179 0.621672 0.630074 0.323814" mass="0.0396297" diaginertia="2.16991e-05 1.92925e-05 6.42507e-06"/>
+              <joint name="joint5" pos="0 0 0" axis="1 0 0" range="-6.28319 6.28319" actuatorfrcrange="-1000 1000" damping="0.1"/>
+              <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="leader_06_tip_pan_revised"/>
+              <body name="link6" pos="0.0298 0 0.0175">
+                <inertial pos="0.028486 3.99103e-05 0.000349951" quat="0.00185238 0.695527 -0.0035435 0.718489" mass="0.0196115" diaginertia="1.10325e-05 9.04111e-06 3.3363e-06"/>
+                <joint name="gripper_joint_1" pos="0 0 0" axis="0 1 0" range="-6.28319 6.28319" actuatorfrcrange="-1000 1000" damping="0.1"/>
+                <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="leader_07_tip_grip"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

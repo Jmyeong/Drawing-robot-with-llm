@@ -1,0 +1,11 @@
+<mujoco model="omx_f scene">
+
+  <visual>
+    <rgba haze="0.15 0.25 0.35 1"/>
+    <global offwidth="1920" offheight="1080"/>
+  </visual>
+
+  <include file="./omx_f_drawing.xml"/>
+  <include file="../floor/floor_isaac_style.xml"/>
+  <include file="./obj_board.xml"/>
+</mujoco>
