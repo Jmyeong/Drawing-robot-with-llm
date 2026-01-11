@@ -18,9 +18,9 @@ If you want to show how the robot simulator generates the dataset, convert 'visu
 <table>
   <tr>
     <td width="25%"><img src="assets/dataset_gen_airplane.gif"></td>
-    <td width="25%"><img src="gassets/dataset_gen_alarm.gif"></td>
-    <td width="25%"><img src="gassets/dataset_gen_backpack.gif"></td>
-    <td width="25%"><img src="assets/dataset_gen_bicyc.e.gif"></td>
+    <td width="25%"><img src="assets/dataset_gen_alarm.gif"></td>
+    <td width="25%"><img src="assets/dataset_gen_backpack.gif"></td>
+    <td width="25%"><img src="assets/dataset_gen_bicycle.gif"></td>
   </tr>
 </table>
 ## Training
