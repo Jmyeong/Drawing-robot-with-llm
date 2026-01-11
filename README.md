@@ -47,4 +47,11 @@ If you want to show how the robot simulator generates the dataset, convert 'visu
 
 ## inference
 `python infer.py`
-
+### Results
+<table>
+  <tr>
+    <td width="25%"><img src="assets/gif/result_backpack.gif"></td>
+    <td width="25%"><img src="assets/gif/results_banana.gif"></td>
+    <td width="25%"><img src="assets/gif/result_tornado.gif"></td>
+  </tr>
+</table>
