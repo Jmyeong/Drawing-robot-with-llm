@@ -11,6 +11,7 @@ This repository is the implementation of the class: Robot learning 101 (JBNU 202
 ## Setup
 
 ### Step1: Prepare dataset (I used QuickDraw dataset)
+https://github.com/googlecreativelab/quickdraw-dataset
 
 ### Step2: Convert to jsonl
 `python dataset_generate.py`
