@@ -52,12 +52,26 @@ Simulation test
 <table>
   <tr>
     <td width="25%"><img src="assets/gif/result_backpack.gif"></td>
-    <td width="25%"><img src="assets/gif/results_banana.gif"></td>
+    <td width="25%"><img src="assets/gif/result_banana.gif"></td>
     <td width="25%"><img src="assets/gif/result_tornado.gif"></td>
   </tr>
 </table>
 <table>
   <tr>
     <td width="25%"><img src="assets/images/results.jpg"></td>
+  </tr>
+</table>
+
+Real-robot test
+<table>
+  <tr>
+    <td width="25%">
+        <img src="assets/gif/real_result_banana.gif">
+        <sub>Prompt: Draw a banana</sub>
+    </td>
+    <td width="25%">
+        <img src="assets/gif/real_result_bicycle.gif">
+        <sub>Prompt: Draw a bicycle</sub>
+    </td>
   </tr>
 </table>
