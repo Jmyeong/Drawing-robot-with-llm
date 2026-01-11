@@ -15,7 +15,7 @@ If you want to check the dataset, run `python check_dataset.py`
 
 Step3: `python ./Drawing-with-OMX/notebook/drawing/gen_data.py`
 If you want to show how the robot simulator generates the dataset, convert 'visualize' to True (in gen_data.py)
-
+![Dataset gen simulation](assets/dataset_gen_airplane.gif)
 
 ## Training
 `python finetuning.py`
