@@ -40,10 +40,10 @@ If you want to show how the robot simulator generates the dataset, convert 'visu
 `python finetuning.py`
 
 <p align="center">
-  <img src="assets/images/pipeline.jpg)" width="24%">
-  <img src="assets/images/log.jpg" width="24%">
+  <img src="assets/images/pipeline.jpg" width="80%">
+  <br><br>
+  <img src="assets/images/log.jpg" width="80%">
 </p>
-
 
 ## inference
 `python infer.py`
