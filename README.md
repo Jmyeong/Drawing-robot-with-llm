@@ -2,7 +2,7 @@
 
 This repository is the implementation of the class: Robot learning 101 (JBNU 2025 fall, M.S course)
 
-- Used LLM: Qwen2.5-instruct-7B
+- Used LLM: Qwen2.5-instruct-0.5B
 
 - Simulation tool: Mujoco
 
