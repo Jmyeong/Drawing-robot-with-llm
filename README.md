@@ -36,6 +36,8 @@ If you want to show how the robot simulator generates the dataset, convert 'visu
   </tr>
 </table>
 ## Training
+![Network pipeline](assets/images/pipline.png)
+
 `python finetuning.py`
 
 ## inference
